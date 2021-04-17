@@ -22,6 +22,11 @@ strong {
 
 a {
   text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
 }
 
 li {
@@ -42,7 +47,6 @@ li {
 
 .header-right {
   max-width: 75%;
-  font-style: italic;
   display: inline-block;
   vertical-align: top;
   padding-left: 25px;
@@ -55,6 +59,33 @@ li {
   border: solid 5px rgb(33, 33, 54);
 }
 
+.frase {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 50px;
+  color: rgb(36, 36, 107);
+}
+
+.list {
+  margin: 30px;
+}
+
 .list li{
   list-style: disc;
+}
+
+.menu li a:hover {
+  color: rgb(108, 108, 194);
+}
+
+.menu li{
+  display: inline-block;
+  margin: 70px 40px 60px 0px ;
+}
+
+.skills-ul li:nth-child(odd) {
+  color: rgb(108, 108, 194);
+  
 }
