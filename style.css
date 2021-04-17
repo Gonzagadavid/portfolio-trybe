@@ -61,6 +61,12 @@ li {
   padding-left: 25px;
 }
 
+.email{
+  font-size:16px;
+  font-style: italic;
+  font-weight: 200;
+}
+
 #foto {
   border-radius: 50%;
   object-fit: cover;
@@ -82,6 +88,7 @@ li {
 }
 
 .list li{
+  line-height: 2;
   list-style: disc;
 }
 
