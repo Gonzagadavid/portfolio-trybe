@@ -1,10 +1,9 @@
 body{
-  width: 90%;
-  margin: auto;
+  margin: 0%;
   color: #fff; 
   font-size: 25px;
   font-family: Geneva, sans-serif;
-  background: linear-gradient(0deg, rgb(51, 49, 84), rgb(0, 0, 0));
+  background: linear-gradient(0deg, rgb(35, 33, 58), rgb(0, 0, 0));
 }
 
 h1 {
@@ -35,12 +34,10 @@ li {
 }
 
 .header-left {
-  width: 20%;
+  width: 17%;
+  padding: 20px;
   display: inline-block;
-}
-
-.header-left li {
-  max-width: 20%;
+  background: linear-gradient(0deg, rgb(40, 39, 68), rgb(0, 0, 0));
 }
 
 .header-right {
@@ -48,6 +45,7 @@ li {
   font-style: italic;
   display: inline-block;
   vertical-align: top;
+  padding-left: 25px;
 }
 
 #foto {
