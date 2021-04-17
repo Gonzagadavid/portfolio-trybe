@@ -1,5 +1,5 @@
 body{
-  width: 80%;
+  width: 90%;
   margin: auto;
   color: #fff; 
   font-size: 25px;
@@ -7,7 +7,7 @@ body{
   background: linear-gradient(0deg, rgb(51, 49, 84), rgb(0, 0, 0));
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 2em;
   font-family: cursive, sans-serif;
@@ -29,16 +29,39 @@ li {
   list-style: none;
   margin-top: 10px;
 }
-.perfil {
-  text-align: center;
+
+.header{
+  width: 100%;
 }
 
-.images {
+.header-left {
+  width: 20%;
+  display: inline-block;
+}
+
+.header-left li {
+  max-width: 20%;
+}
+
+.header-right {
+  max-width: 75%;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#foto {
   border-radius: 50%;
   object-fit: cover;
   height: 200px;
+  border: solid 5px rgb(33, 33, 54);
 }
 
 .list li{
   list-style: disc;
+}
+
+.skills {
+  /* clear: both; */
+
 }
