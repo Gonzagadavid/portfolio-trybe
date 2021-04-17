@@ -29,6 +29,12 @@ a:visited {
   color: #fff;
 }
 
+
+a:hover {
+  color: rgb(108, 108, 194);
+  font-size: 28px;
+}
+
 li {
   list-style: none;
   margin-top: 10px;
@@ -45,6 +51,7 @@ li {
   border-radius: 10px;
   box-shadow: 5px 5px 8px black;
   background: linear-gradient(0deg, rgb(40, 39, 68), rgb(0, 0, 0));
+  font-size: 23px;
 }
 
 .header-right {
@@ -76,10 +83,6 @@ li {
 
 .list li{
   list-style: disc;
-}
-
-.menu li a:hover {
-  color: rgb(108, 108, 194);
 }
 
 .menu li{
