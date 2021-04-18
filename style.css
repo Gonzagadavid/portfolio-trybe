@@ -10,10 +10,17 @@ h1 {
   text-align: center;
   font-size: 2em;
   font-family: cursive, sans-serif;
+  color: rgb(73, 73, 160);
 }
 
 h2 {
+  margin: 80px 0px;
+  color: rgb(73, 73, 160);
+}
+
+h3 {
   margin-top: 50px;
+  color: rgb(146, 146, 235);
 }
 
 strong {
@@ -27,12 +34,6 @@ a {
 
 a:visited {
   color: #fff;
-}
-
-
-a:hover {
-  color: rgb(108, 108, 194);
-  font-size: 28px;
 }
 
 li {
@@ -80,24 +81,61 @@ li {
   font-style: italic;
   font-size: 20px;
   margin-top: 50px;
-  color: rgb(36, 36, 107);
+  color: rgb(121, 121, 255);
 }
 
 .list {
-  margin: 30px;
+  margin: 0px;
+  width: 93.55vw;
+}
+
+.list h2, h3 {
+  margin-left: 35px;
 }
 
 .list li{
-  line-height: 2;
-  list-style: disc;
+  line-height: 3;
+  padding-left: 70px;
+  width: 100%;
+}
+
+.list li:last-child{
+  margin-bottom: 100px;
 }
 
 .menu li{
   display: inline-block;
   margin: 70px 40px 60px 0px ;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-delay: 0.08s;
+  font-size: 26px;
+
+} 
+
+.menu li:last-child{
+  margin-right: 0%;
+}
+
+.menu li:hover {
+  transform: scale(1.1);
+}
+
+.skills-ul{
+  padding: 0%;
 }
 
 .skills-ul li:nth-child(odd) {
-  color: rgb(108, 108, 194);
-  
+  background-color: rgba(40, 39, 68, 0.2);
 }
+
+.blue a{
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-delay: 0.08s;
+}
+
+.blue a:hover {
+  color: rgb(108, 108, 194);
+}
+
